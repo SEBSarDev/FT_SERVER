@@ -7,5 +7,10 @@ We had to create an environment with nginx, mariaDB and wordpress in order to al
 To launch container :
 ```
 $ sudo docker build .
-$ sudo docker run 
+...
+...
+...
+Successfully built 317570de6cb6
+$ sudo docker run ID_CONTAINER_BUILD (here 317570de6cb6)
 ```
+
