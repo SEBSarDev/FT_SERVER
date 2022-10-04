@@ -11,6 +11,6 @@ $ sudo docker build .
 ...
 ...
 Successfully built 317570de6cb6
-$ sudo docker run ID_CONTAINER_BUILD (here 317570de6cb6)
+$ sudo docker run -p 80:80 -p 443:443 ID_CONTAINER_BUILD (here 317570de6cb6)
 ```
 
